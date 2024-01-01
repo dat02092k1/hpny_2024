@@ -5,7 +5,7 @@ function myWishToBeloved() {
     alert(myWishToYou);
 }
 
-setInterval(myWishToBeloved(), 5000);
+document.addEventListener("DOMContentLoaded", myWishToBeloved);
 
 let newSecond1, 
 	newSecond2, 
